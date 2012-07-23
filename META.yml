@@ -21,10 +21,6 @@ requires:
   Archive::Zip: 0
   Authen::Libwrap: 0
   BSD::Resource: 0
-  Bundle::CPAN: 0
-  Bundle::DBD::Pg: 0
-  Bundle::DBD::mysql: 0
-  Bundle::Interchange: 0
   Business::OnlinePayment::AuthorizeNet: 0
   Business::UPS: 0
   CDB_File: 0
@@ -42,7 +38,6 @@ requires:
   Curses: 0
   Curses::UI: 0
   Cwd: 0
-  DBD::Pg: 0
   DBD::SQLite2: 0
   DBD::mysql: 0
   DBI: 0
@@ -184,4 +179,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/CpanelInc/Task-Cpanel-Core
-version: 11.36.001
+version: 11.36.002

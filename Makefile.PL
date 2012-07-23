@@ -29,10 +29,6 @@ my %WriteMakefileArgs = (
     "Archive::Zip" => 0,
     "Authen::Libwrap" => 0,
     "BSD::Resource" => 0,
-    "Bundle::CPAN" => 0,
-    "Bundle::DBD::Pg" => 0,
-    "Bundle::DBD::mysql" => 0,
-    "Bundle::Interchange" => 0,
     "Business::OnlinePayment::AuthorizeNet" => 0,
     "Business::UPS" => 0,
     "CDB_File" => 0,
@@ -50,7 +46,6 @@ my %WriteMakefileArgs = (
     "Curses" => 0,
     "Curses::UI" => 0,
     "Cwd" => 0,
-    "DBD::Pg" => 0,
     "DBD::SQLite2" => 0,
     "DBD::mysql" => 0,
     "DBI" => 0,
@@ -191,7 +186,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "11.36.001",
+  "VERSION" => "11.36.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
