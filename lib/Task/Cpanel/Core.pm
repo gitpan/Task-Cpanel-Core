@@ -7,7 +7,7 @@
 
 package Task::Cpanel::Core;
 {
-  $Task::Cpanel::Core::VERSION = '11.36.002';
+  $Task::Cpanel::Core::VERSION = '11.36.004';
 }
 
 use strict;
@@ -19,7 +19,7 @@ Task::Cpanel::Core - This module provides a spec of packages needed to operate a
 
 =head1 VERSION
 
-version 11.36.002
+version 11.36.004
 
 =head1 SYNOPSIS
 
@@ -218,6 +218,14 @@ get pathname of current working directory
 =cut
 
 use Cwd;
+
+=item L<Data::MessagePack|Data::MessagePack>
+
+MessagePack serialising/deserialising
+
+=cut
+
+use Data::MessagePack;
 
 =item L<DBD::SQLite2|DBD::SQLite2>
 
@@ -835,6 +843,14 @@ Build and install Perl modules
 
 use Module::Build;
 
+=item L<MySQL::Diff|MySQL::Diff>
+
+Generates a database upgrade instruction set
+
+=cut
+
+use MySQL::Diff;
+
 =item L<Net::AIM|Net::AIM>
 
 Perl extension for AOL Instant Messenger TOC protocol
@@ -842,6 +858,14 @@ Perl extension for AOL Instant Messenger TOC protocol
 =cut
 
 use Net::AIM;
+
+=item L<NetAddr::IP|NetAddr::IP>
+
+Manages IPv4 and IPv6 addresses and subnets
+
+=cut
+
+use NetAddr::IP;
 
 =item L<Net::DAV::Server|Net::DAV::Server>
 

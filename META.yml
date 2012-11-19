@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -44,6 +44,7 @@ requires:
   DBIx::MyParsePP: 0
   Data::Dump: 0
   Data::Dumper: 0
+  Data::MessagePack: 0
   Date::Parse: 0
   DateTime: 0
   DateTime::Locale: 0
@@ -115,6 +116,7 @@ requires:
   Math::BigInt: 0
   Memoize: 0
   Module::Build: 0
+  MySQL::Diff: 0
   Net::AIM: 0
   Net::DAV::Server: 0
   Net::DNS: 0
@@ -133,6 +135,7 @@ requires:
   Net::SSLeay: 0
   Net::Server: 0
   Net::Server::Fork: 0
+  NetAddr::IP: 0
   OLE::Storage_Lite: 0
   Parse::RecDescent: 0
   Pod::Perldoc: 0
@@ -179,4 +182,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/CpanelInc/Task-Cpanel-Core
-version: 11.36.002
+version: 11.36.004
